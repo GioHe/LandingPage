@@ -9,6 +9,8 @@ body {
     background-image: url('img/background.jpg');
     font-size: 25px;
     text-align: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #4e4376
 }
 
 img#img-anne {
