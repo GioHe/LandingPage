@@ -31,25 +31,26 @@ div.formulario {
 }
 
 button { 
-    background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%)}
-    button {
-       margin: auto;
-       padding: 10px 20px;
-       text-align: center;
-       text-transform: uppercase;
-       transition: 0.5s;
-       background-size: 200% auto;
-       color: white;            
-       box-shadow: 0 0 20px #eee;
-       border-radius: 10px;
-       display: block;
-     }
+    background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
+}
+button {
+    margin: auto;
+    padding: 10px 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
 
-     button:hover {
-       background-position: center; /* change the direction of the change here */
-       color: #fff;
-       text-decoration: none;
-     }
+button:hover {
+    background-position: center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
     
 
 div.botones {
