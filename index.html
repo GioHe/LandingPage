@@ -13,56 +13,93 @@
 </head>
 <body>
     
-    <h1>Anne Baileys</h1>
-    <h3>¡No te pierdas el lanzamiento oficial del nuevo libro! </h3>
-    <h3>Suscríbete abajo para obtenerlo:</h3>
-    <img id="img-anne" src="img/anne writing.jpg" alt="Anne Baileys">
-
-    <div class="formulario">
-        <form action="" method="get">
-            <div class="form-line">
-                <label for="nombre">Nombre:</label>
-                <input name="nombre" id="nombre" placeholder="María González" />
-            </div>
+    <div class="grid-container">
+        <div class="item1">
+            <h2>Los libros de Anne Baileys</h2>
+  
+        </div>
+        <div class="item2">
+            <ul>
+                <li><a href="#">Biografía</li></a>
+                <li><a href="#">Libros publicados</li></a>
+                <li><a href="#">Editoriales</li></a>
+                <li><a href="#">Próximos lanzamientos</li></a>
+            </ul>
+        </div>
+        <div class="item3">
+            <h3>Introducción al mundo de los libros</h3>
+            <h5>Por: Anne Baileys</h5>
+            <p>
+              Escribí obras de teatro en mi juventud y me encantó el ambiente del teatro. También intenté escribir cuentos para niños, 
+              cuando mis hijos eran pequeños,pero no he vuelto a hacerlo. Yo les contaba historias todas las noches, un entrenamiento estupendo, que he procurado mantener con mis nietos. 
+              En el año 2001, escribí La Ciudad de las Bestias, el primer libro de una trilogía para niños y jóvenes, que siguió con 
+              El Reino del Dragón de Oro y El Bosque de los Pigmeos. He escrito artículos humorísticos durante años, y creo que es el género más difícil de todos. 
+              Nunca he probado la poesía y no creo que lo haga.
+            </p>
+        </div>
+  
+        <div class="item4">
+          <h3>¡No te pierdas el lanzamiento oficial del nuevo libro! </h3>
+          <h3>Suscríbete abajo para obtenerlo:</h3>
+          <img id="img-anne" src="img/anne writing.jpg" alt="Anne Baileys">
+      
+          <div class="formulario">
+              <form action="" method="get">
+                  <div class="form-line">
+                      <label for="nombre">Nombre:</label>
+                      <input name="nombre" id="nombre" placeholder="María González" />
+                  </div>
+                  
+                  <div class="form-line">
+                      <label for="email">Email:</label>
+                      <input name="email" id="email" placeholder="mgonzalez@gmail.com" />
+                  </div>        
+                   
+                  <div class="form-line">
+                      <label for="género">Género:</label>
+                      <div class="radio-option">
+                          <input type="radio" id="masculino" name="genero" value="masculino">
+                          <label for="masculino">Masculino</label>
+                      </div>
+                      <div class="radio-option">
+                          <input type="radio" id="femenino" name="genero" value="femenino">
+                          <label for="femenino">Femenino</label>
+                      </div>
+                  </div>
+                  
+                  <div class="form-line">
+                      <label for="edad">Edad:</label>
+                      <select name="edad" id="edad">
+                          <option value" selected></option>
+                          <option value="10-20">10-20</option>
+                          <option value="21-30">21-30</option>
+                          <option value="31-40">31-40</option>
+                          <option value="41-50">41-50</option>
+                          <option value="51-60">51-60</option>
+                          <option value="61-70">61-70</option>
+                          <option value="71-80">71-80</option>
+                      </select>
+                  </div>
+                  
+                  <div class="botones">
+                      <button type="submit">Suscribir</button>
+                      <button type="reset">Limpiar</button>
+                  </div>
+                  
+              </form>
+          </div>    
+      
+        </div>
+        <div class="item5">
+            <h5>¡Síguenos en nuestras redes sociales!</h5>
+            <botton type="botton"><i class="fab fa-instagram-square"></i></botton>
+            <botton type="botton"><i class="fab fa-facebook-square"></i></botton>
+            <botton type="botton"><i class="fab fa-twitter-square"></i></botton>
+            <botton type="botton"><i class="fas fa-phone"></i>+569 12345697</botton>
+  
             
-            <div class="form-line">
-                <label for="email">Email:</label>
-                <input name="email" id="email" placeholder="mgonzalez@gmail.com" />
-            </div>        
-             
-            <div class="form-line">
-                <label for="género">Género:</label>
-                <div class="radio-option">
-                    <input type="radio" id="masculino" name="genero" value="masculino">
-                    <label for="masculino">Masculino</label>
-                </div>
-                <div class="radio-option">
-                    <input type="radio" id="femenino" name="genero" value="femenino">
-                    <label for="femenino">Femenino</label>
-                </div>
-            </div>
-            
-            <div class="form-line">
-                <label for="edad">Edad:</label>
-                <select name="edad" id="edad">
-                    <option value" selected></option>
-                    <option value="10-20">10-20</option>
-                    <option value="21-30">21-30</option>
-                    <option value="31-40">31-40</option>
-                    <option value="41-50">41-50</option>
-                    <option value="51-60">51-60</option>
-                    <option value="61-70">61-70</option>
-                    <option value="71-80">71-80</option>
-                </select>
-            </div>
-            
-            <div class="botones">
-                <button type="submit">Suscribir</button>
-                <button type="reset">Limpiar</button>
-            </div>
-            
-        </form>
-    </div>    
-
+        </div>
+      </div>
+    
 </body>
 </html>
