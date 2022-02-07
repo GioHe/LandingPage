@@ -70,14 +70,13 @@ div.formulario {
     background-color: #698abe;
     padding: 30px;
     border-radius: 15px;   
-    text-align: left; 
+    text-align: left;
 }
 
 button { 
     background-image: linear-gradient(to right, #2b5876 0%, #4e4376  51%, #2b5876  100%);
 }
 button {
-    margin: auto;
     padding: 10px 20px;
     text-align: center;
     text-transform: uppercase;
@@ -86,7 +85,7 @@ button {
     color: white;            
     box-shadow: 0 0 20px #eee;
     border-radius: 10px;
-    display: block;
+    display: inline-block;
 }
 
 button:hover {
@@ -96,10 +95,8 @@ button:hover {
 }
     
 
-div.botones {
-    text-align: center;
-    margin: auto;
-
+.boton2 {
+    margin-left: 200px;
 }
 
 label {
@@ -127,3 +124,11 @@ select {
     border-radius: 5px;
 }
 
+.numero-telefono {
+    font-size: 20px;
+}
+
+img#escribiendo {
+    border-radius: 10px;
+    border: 5px solid white;
+}
